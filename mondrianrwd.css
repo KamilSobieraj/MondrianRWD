@@ -154,38 +154,3 @@ li:nth-child(20) {
   background-color: rgb(46, 15, 147);
   border: 10px solid #232323;
 }
-
-footer {
-  clear: left;
-  text-align: center;
-  color: white;
-}
-.my-name {
-  font-weight: 900;
-}
-.footer__social-button {
-  border: none;
-  background: none;
-  outline: none;
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  margin-right: 10px;
-  margin-left: 10px;
-  transition: transform 0.7s;
-  -webkit-transition: transform 0.7s;
-  -moz-transition: transform 0.7s;
-}
-.footer__social-button:hover {
-  cursor: pointer;
-  background-color: #4682b4;
-}
-.footer__social-button:hover > i {
-  transition: transform 0.7s;
-  -webkit-transition: transform 0.7s;
-  -moz-transition: transform 0.7s;
-  color: #232323;
-}
-.footer__social-icon {
-  color: #4682b4;
-}
